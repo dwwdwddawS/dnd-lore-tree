@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Древо лора - Карта мира</title>
+    <!-- Подключаем наш общий рабочий CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- БОКОВАЯ ПАНЕЛЬ -->
+    <aside class="sidebar">
+        <div class="studio-title">Древо лора</div>
+        
+        <div class="nav-tabs">
+            <button class="tab-btn active">Карта</button>
+            <button class="tab-btn">Страны</button>
+        </div>
+
+        <!-- Наше сквозное меню (вкладка Карта теперь активна) -->
+        <div class="list-container">
+            <a href="map.html" class="list-item-link active" style="color: #d4b274; font-weight: bold; border-left: 3px solid #d4b274; padding-left: 8px;">🗺️ КАРТА МИРА</a>
+            <a href="index.html" class="list-item-link">Таврикия</a>
+            <a href="fulmira.html" class="list-item-link">Фулмира</a>
+            <a href="dolnostar.html" class="list-item-link">Дольностар</a>
+            <a href="eldarnia.html" class="list-item-link">Эльдарния</a>
+            <a href="fukito.html" class="list-item-link">Фукито</a>
+            <a href="ordenbor.html" class="list-item-link">Орденбор</a>
+            <a href="haltonston.html" class="list-item-link">Хальтонстон</a>
+            <a href="alastarnia.html" class="list-item-link">Аластарния</a>
+            <a href="artenvol.html" class="list-item-link">Артенвол</a>
+        </div>
+    </aside>
+
+    <!-- ГЛАВНАЯ РАБОЧАЯ ОБЛАСТЬ С КАРТОЙ -->
+    <main class="main-content">
+        <div class="top-bar">
+            <div class="mode-indicator">Режим: <strong>Мастер (Редактирование)</strong></div>
+        </div>
+
+        <div class="content-body" style="display: flex; justify-content: center; align-items: flex-start;">
+            <article class="article-view" style="width: 100%; max-width: 1000px; text-align: center;">
+                <h1 class="article-title" style="margin-bottom: 20px;">Карта мира 9 королевств</h1>
+                
+                <!-- Само изображение твоей карты -->
+                <div style="background-color: #1f1a15; padding: 10px; border: 1px solid #4a3e35; border-radius: 6px; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">
+                    <img src="map.jpg" alt="Карта Аурунита" style="width: 100%; height: auto; display: block; border-radius: 4px;">
+                </div>
+            </article>
+        </div>
+    </main>
+
+</body>
+</html>
